@@ -6,4 +6,5 @@ interface TariffInterface
     public function getPricePerDistance();
     public function addService(ServiceInterface $service): self;
     public function countOverallPrice();
+    public function getMinutes();
 }
